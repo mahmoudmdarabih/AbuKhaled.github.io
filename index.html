@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html>
+    <head>
+      <title> Register page</title>
+      <style>
+          
+      
+      body{
+          text-emphasis-color: #0f0;
+          background-image: url(Screenshot_20190813-230244.png);
+          background-size: cover;
+      }
+      form{
+          text-emphasis-color: #0f0;
+      }
+      h3{
+          color:rgb(163, 14, 14);
+      }
+      legend{
+          background-color: #0f0;
+          padding: 6px;
+          
+      }
+      fieldset{
+        
+         border:10px solid color: #0f0; 
+         
+         padding: 10 px ;
+       }
+      </style>
+    </head>
+
+    <body>
+        <!--use GET not post"this is a commint"-->
+        <form method="GET" >
+            <fieldset>
+
+           <h3>first name :<input type="text"required name="firstname"></h3>  <br><br>
+            last name : <input type="text"required name="lastname"><br><br>
+            Email :    <input type="email"required name="Email"><br><br>
+            Password : <input type="password" minlength="8" required name="password"><br>
+        </fieldset>
+        <br><br>
+        
+        <fieldset>
+             Gender:   <br>  <input type="radio"name="Gender" value="male">male<br>
+                     <input type="radio"name="Gender" value="femaile"> female<br>
+                      <input type="radio"name="Gender" value="other">other <br>
+                    </fieldset>
+                    <br><br>
+                    
+                    <fieldset>
+            DOP: <input type="date " name="birthday"><br><br>
+          
+          pets: <br>
+          
+            <input type="checkbox" name="cat">Cat <br>
+            <input type="checkbox" name="dog">dog <br>
+      <br>
+            Your car modeel:
+            <select name="cars">
+                <option value="volvo" >Volvo</option>
+                <option value="Ferary" >Ferary</option>
+                <option value="Fiat">Fiat</option>
+
+            </select>   </fieldset><br><hr>
+            <br>  <input type="submit"value="Register!">
+            <input type="reset"value="delet all the data">
+
+        </form>
+        <br>
+        <br><br>
+        <br>
+       <!-- <a href="test2.html"><u>back to the home page</u></a> -->
+    </body>
+</html>
